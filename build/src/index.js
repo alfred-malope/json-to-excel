@@ -42,7 +42,7 @@ function createExcelFromJSON(jsonFilePath, excelFilePath) {
         console.error('Error parsing JSON:', error);
     }
 }
-const jsonFilePath = "./ecs-fields.json";
-const excelFilePath = "./Book.xlsx";
+const jsonFilePath = "./your file path.json";
+const excelFilePath = "./your file path.xlsx";
 createExcelFromJSON(jsonFilePath, excelFilePath);
 //# sourceMappingURL=index.js.map
