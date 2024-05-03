@@ -26,8 +26,8 @@ function createExcelFromJSON(jsonFilePath: string, excelFilePath: string) {
 }
 
 
-const jsonFilePath: string = "./ecs-fields.json";
-const excelFilePath: string = "./Book.xlsx";
+const jsonFilePath: string = "./your file path.json";
+const excelFilePath: string = "./your file path.xlsx";
 
 
 createExcelFromJSON(jsonFilePath, excelFilePath);
